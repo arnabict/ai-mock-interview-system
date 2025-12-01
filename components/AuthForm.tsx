@@ -16,6 +16,7 @@ import {
   signInWithEmailAndPassword,
 } from "firebase/auth";
 import { auth } from "@/firebase/client";
+import Image from "next/image";
 
 const authFormSchema = (type: FormType) => {
   return z.object({
